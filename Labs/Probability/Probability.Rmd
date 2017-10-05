@@ -9,12 +9,12 @@ output:
 <style>
 
 /* comment out to generate key */
-#.hider {display: none;}
-#.hider2 {display: inline;}
+.hider {display: none;}
+.hider2 {display: inline;}
 
 /* comment out to generate exercise */
-.hider {display: inline;}
-.hider2 {display: none;} 
+#.hider {display: inline;}
+#.hider2 {display: none;} 
 
 </style>
 
@@ -57,10 +57,10 @@ library(knitr)
 knitr::opts_chunk$set(cache = FALSE, warnings = FALSE, tidy = FALSE)
 
 # uncomment out this to generate key
- nokey = FALSE; key = TRUE
+# nokey = FALSE; key = TRUE
 
 # uncomment out this to generate exercise
-# nokey = TRUE; key = FALSE
+ nokey = TRUE; key = FALSE
 ```
 
 <br>
